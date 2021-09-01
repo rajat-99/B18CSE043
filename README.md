@@ -50,3 +50,9 @@ $ docker build --tag q2 .
 # Start the container q2, and publish its port 3000 onto port 8080 of the host
 $ docker run -p 8080:3000 -d q2
 ```
+
+## Start WebAPP
+```sh
+# Open the given link on your browser
+$ http://localhost:8080/
+```
