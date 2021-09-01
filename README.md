@@ -51,7 +51,7 @@ $ docker build --tag q2 .
 $ docker run -p 8080:3000 -d q2
 ```
 
-## Start WebAPP
+## Start WebApp
 ```sh
 # Open the given link on your browser
 $ http://localhost:8080/
